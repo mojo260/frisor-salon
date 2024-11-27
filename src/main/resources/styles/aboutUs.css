@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000; /* Black background */
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffd700; /* Golden text */
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    background: #ffd700; /* Golden hover background */
+    color: #000; /* Black text for active link */
+    transform: scale(1.1);
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #ffd700, #000); /* Golden to black gradient */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Section */
+.info-section {
+    background: #1a1a1a; /* Dark gray */
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0px 8px 16px rgba(255, 215, 0, 0.4); /* Golden shadow */
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #ffd700; /* Golden text */
+}
+
+.info-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #ffd700; /* Golden heading */
+    font-weight: 700;
+}
+
+.info-section p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #fff; /* White text */
+}
+
+/* Footer */
+.footer {
+    background: #1a1a1a; /* Dark gray */
+    color: #ffd700; /* Golden text */
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 4px rgba(255, 215, 0, 0.4); /* Golden shadow */
+}
